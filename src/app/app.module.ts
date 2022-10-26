@@ -5,7 +5,6 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { ChildComponent } from './child/child.component';
 import { GoogleChartsModule } from 'angular-google-charts';
-
 import { GaugeModule } from 'angular-gauge';
 
 @NgModule({
