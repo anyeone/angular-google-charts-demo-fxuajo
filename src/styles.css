@@ -1,0 +1,98 @@
+/* .google-visualization-tooltip {
+  width: 100px !important !important;
+  border: 2px solid #ddd !important !important;
+  border-radius: 2px !important !important;
+  margin: -19px !important !important;
+  background-color: #fff !important !important;
+  position: absolute !important !important;
+  box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75) !important !important;
+  font-size: 15px !important !important; 
+} */
+/* Copyright 2012 Google Inc. All Rights Reserved. */
+
+/* .google-visualization-tooltip-action: hover {
+  background-color: #eeeeee !important;
+} */
+/* .google-visualization-tooltip {
+  width: 100px !important;
+
+  border: solid 1px #bdbdbd !important;
+  border-radius: 2px !important;
+  background-color: white !important;
+  position: absolute !important;
+  box-shadow: 0px 2px 2px 0px rgba(204, 204, 204, 0.6) !important;
+  font-size: 12px !important;
+  padding: 10px !important;
+  -moz-box-shadow: 0px 2px 2px 0px rgba(204, 204, 204, 0.6) !important;
+  -webkit-box-shadow: 0px 2px 2px 0px rgba(204, 204, 204, 0.6) !important;
+}
+.google-visualization-tooltip-action-list {
+  list-style-type: none !important;
+  margin: 0 !important;
+  padding: 0.5em 0em 0.5em 0em !important;
+  cursor: hand !important;
+}
+.google-visualization-tooltip-action {
+  margin: 0 !important;
+  cursor: pointer !important;
+  padding: 0.5em 2em 0.5em 1em !important;
+}
+.google-visualization-tooltip-action:hover {
+  background-color: #eeeeee !important;
+}
+.google-visualization-tooltip-item-list {
+  list-style-type: none !important;
+  margin: 1em 0 1em 0 !important;
+  padding: 0em !important;
+}
+.google-visualization-tooltip-item {
+  margin: 0.65em 0em 0.65em 0em !important;
+  padding: 0em 2em 0em 1em !important;
+}
+.google-visualization-tooltip-item-list
+  .google-visualization-tooltip-item:first-child {
+  margin: 1em 0em 1em 0em !important;
+}
+.google-visualization-tooltip-separator {
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 1px !important;
+  background-color: #dddddd !important;
+}
+.google-visualization-tooltip-square {
+  display: inline-block !important;
+  float: left !important;
+  clear: none !important;
+  width: 0.5em !important;
+  height: 0.5em !important;
+  margin: 0.16em 0.7em 0em 0em !important;
+  border-bottom: solid 0.1em white !important;
+} */
+
+mwl-gauge {
+  width: 150px;
+  height: 150px;
+  display: block;
+  padding: 10px;
+  font-size: 8px;
+}
+mwl-gauge > .gauge > .dial {
+  stroke: #eee;
+  stroke-width: 10;
+  fill: rgba(0, 0, 0, 0);
+}
+mwl-gauge > .gauge > .value {
+  stroke: rgb(47, 227, 255);
+  stroke-width: 10;
+  fill: rgba(0, 0, 0, 0);
+}
+mwl-gauge > .gauge > .value-text {
+  fill: rgb(47, 227, 255);
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 8px;
+}
+
+mwl-gauge > .gauge > .label {
+  font-size: 8px;
+}
